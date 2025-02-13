@@ -1,27 +1,33 @@
 /* styles/globals.css */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    font-size: 2rem;
-    line-height: 1.5;
-    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
-    animation: glow 1.5s infinite alternate;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+  animation: glow 1.5s infinite alternate;
 }
 
 @keyframes glow {
-    from {
-        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4), 0 0 10px #fff, 0 0 20px #fff;
-    }
-    to {
-        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4), 0 0 20px #ff9d00, 0 0 30px #ff9d00;
-    }
+  from {
+    text-shadow:
+      2px 4px 6px rgba(0, 0, 0, 0.4),
+      0 0 10px #fff,
+      0 0 20px #fff;
+  }
+  to {
+    text-shadow:
+      2px 4px 6px rgba(0, 0, 0, 0.4),
+      0 0 20px #ff9d00,
+      0 0 30px #ff9d00;
+  }
 }
